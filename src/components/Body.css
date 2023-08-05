@@ -1,0 +1,88 @@
+/* Add any other styles you need for the container */
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .album-card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden; /* Hides any content that overflows the container */
+  }
+  
+  .album-title {
+    /* white-space: nowrap; Prevents the text from wrapping */
+    /* overflow: hidden; Hides any overflowing text */
+    text-overflow: ellipsis; /* Adds an ellipsis (...) to indicate truncated text */
+  }
+  
+  .album-img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .search-button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .no-results {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Set the desired height for the message container */
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .no-results h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .no-results p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,31 @@
+{
+  "name": "namasthe-reactjs",
+  "version": "1.0.0",
+  "description": "Learning reactjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raheem-zk/ReactPlayground.git"
+  },
+  "author": "Muhammed Raheem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raheem-zk/ReactPlayground/issues"
+  },
+  "homepage": "https://github.com/raheem-zk/ReactPlayground#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  }
+}
